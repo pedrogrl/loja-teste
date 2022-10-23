@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Loja</title>
     <link rel="stylesheet" href="./src/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="57x57" href="./src/images/favicons/apple-icon-57x57.png">
@@ -137,32 +138,78 @@
     </nav>
     <!-- fim Nav menu -->
 
-    <!-- Banners -->
-    <section id="banners" class="container carousel slide" data-bs-ride="carousel">
-      <article class="carousel-inner">
+    <main>
+      <!-- Banners -->
+      <section id="banners" class="container carousel slide" data-bs-ride="carousel">
+        <article class="carousel-inner">
 
-        <figure class="carousel-item active">
-          <img src="./src/images/banner-1.jpg" class="d-block w-100" alt="Banner promoções">
-        </figure>
+          <figure class="carousel-item active">
+            <img src="./src/images/banner-1.jpg" class="d-block w-100" alt="Banner promoções">
+          </figure>
 
-        <figure class="carousel-item">
-          <img src="./src/images/banner-2.jpg" class="d-block w-100" alt="Banner descontos">
-        </figure>
-      </article>
+          <figure class="carousel-item">
+            <img src="./src/images/banner-2.jpg" class="d-block w-100" alt="Banner descontos">
+          </figure>
+        </article>
 
-      <!-- Botões banners -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#banners" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Avançar para o próximo banner</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#banners" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Voltar para o último banner</span>
-      </button>
-      <!-- fim Botões banners -->
-    </section>
-    <!-- fim Banners -->
+        <!-- Botões banners -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#banners" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Avançar para o próximo banner</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#banners" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Voltar para o último banner</span>
+        </button>
+        <!-- fim Botões banners -->
+      </section>
+      <!-- fim Banners -->
 
+      <!-- Cards promocionais -->
+      <section class="container">
+        <!-- Row -->
+        <section class="row">
+          <!-- Card 1 -->
+          <article class="col-md-6">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
+              <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
+              <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
+            </svg>
+
+            <p>
+              Parcele em até <br> <strong>12x sem juros</strong>
+            </p>
+          </article>
+          <!-- fim Card 1 -->
+
+          <!-- Card 2 -->
+          <article class="col-md-6">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg>
+
+            <p>
+              Entrega para <br> <strong>todo Brasil</strong>
+            </p>
+          </article>
+          <!-- fimCard 2 -->
+
+        </section>
+      </section>
+      <!-- fim Cards promocionais -->
+
+      <section class="container">
+        <h2 class="text-center">Mais Populares</h2>
+
+        <article class="row">
+
+          <section class="col-md-3 produtos">
+
+          </section>
+        </article>
+      </section>
+
+    </main>
 
     <!-- js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
