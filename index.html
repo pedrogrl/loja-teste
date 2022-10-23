@@ -3,11 +3,166 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Loja</title>
     <link rel="stylesheet" href="./src/css/style.css">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./src/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./src/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./src/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./src/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./src/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./src/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./src/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./src/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./src/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./src/images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./src/images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./src/images/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#FFC107">
+    <meta name="msapplication-TileImage" content="./src/images/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#FFC107">
+    <!--  -->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <!-- Header -->
+    <header class="container-fluid">
+      <!-- Container -->
+      <section class="container">
+        <!-- Row -->
+        <article class="row">
+
+          <!-- Logo -->
+          <a href="" class="col-md-2">
+            <img src="./src/images/logo.svg" alt="logo do site 'moda da mulher'">
+          </a>
+
+          <!-- Pesquisa -->
+          <form action="" class="col-md-7">
+            <input type="text" name="pesquisar" placeholder="Pesquisar produtos">
+            <button>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+            </button>
+          </form>
+
+          <!-- Botões Cliente -->
+          <ul class="col-md-3 nav">
+
+            <li class="nav-item">
+              <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg>
+                Entrar
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <span class="itens-carrinho">3</span>
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                </svg>
+                Carrinho
+              </a>
+            </li>
+
+          </ul>
+          <!-- fim Botões Cliente -->
+
+        </article>
+        <!-- fim Row -->
+      </section>
+      <!-- fim Container -->
+    </header>
+    <!-- fim Header -->
+
+    <!-- Nav menu -->
+    <nav class="container-fluid nav-menu">
+      <!-- Container -->
+      <section class="container">
+        <!-- Botões nav -->
+        <ul class="nav">
+
+          <!-- Botão Moda Feminina -->
+          <li class="nav-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+            Moda Feminina
+            <!-- Submenu -->
+            <ul class="nav flex-column">
+
+              <li class="nav-item">
+                Promoções
+              </li>
+
+              <li class="nav-item">
+                Blusas
+              </li>
+
+              <li class="nav-item">
+                Calças
+              </li>
+
+              <li class="nav-item">
+                Vestidos
+              </li>
+
+              <li class="nav-item">
+                Acessórios
+              </li>
+            </ul>
+            <!-- end Submenu -->
+          </li>
+          <!-- end Botão Moda Feminina -->
+
+          <!-- Botão Lançamentos -->
+          <li class="nav-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+            Lançamentos
+          </li>
+          <!-- end Botão Lançamentos -->
+
+        </ul>
+        <!-- fim Botões nav -->
+      </section>
+      <!-- fim Container -->
+    </nav>
+    <!-- fim Nav menu -->
+
+    <!-- Banners -->
+    <section id="banners" class="container carousel slide" data-bs-ride="carousel">
+      <article class="carousel-inner">
+
+        <figure class="carousel-item active">
+          <img src="./src/images/banner-1.jpg" class="d-block w-100" alt="Banner promoções">
+        </figure>
+
+        <figure class="carousel-item">
+          <img src="./src/images/banner-2.jpg" class="d-block w-100" alt="Banner descontos">
+        </figure>
+      </article>
+
+      <!-- Botões banners -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#banners" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Avançar para o próximo banner</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#banners" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Voltar para o último banner</span>
+      </button>
+      <!-- fim Botões banners -->
+    </section>
+    <!-- fim Banners -->
+
 
     <!-- js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
