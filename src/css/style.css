@@ -21,11 +21,11 @@
     font-size: 18px !important;
   }
 }
-.produtos-mais-vendidos ol {
+.produtos-mais-vendidos ol, .produto-camiseta-manga-comprida ol {
   margin: 35px 0;
   font-weight: bold;
 }
-.produtos-mais-vendidos ol li a {
+.produtos-mais-vendidos ol li a, .produto-camiseta-manga-comprida ol li a {
   color: #FF0F9A;
 }
 
@@ -189,6 +189,41 @@ nav.nav-menu ul.nav li:hover ul.nav {
 }
 .produtos.produtos-mais-vendidos h1 {
   margin: 20px 0;
+}
+.produtos .produtos-stars {
+  margin: -5px 0;
+}
+.produtos .produtos-stars svg {
+  fill: #FFC107;
+  width: 17px;
+  height: 17px;
+}
+
+.produtos-compra .produtos-conteudo h1 {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 37px;
+}
+.produtos-compra .produtos-conteudo p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+.produtos-compra .produtos-preco .produtos-stars svg {
+  margin: 10px 0 25px 0;
+}
+.produtos-compra .produtos-preco strong {
+  font-size: 40px;
+  line-height: 50%;
+}
+.produtos-compra .produtos-preco form {
+  font-weight: 100;
+}
+.produtos-compra .produtos-preco form select {
+  margin-bottom: 30px;
+}
+.produtos-compra .produtos-preco strong span {
+  font-size: 16px;
+  margin-bottom: 5px;
 }
 
 footer {

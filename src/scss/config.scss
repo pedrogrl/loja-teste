@@ -204,6 +204,62 @@ nav.nav-menu {
       margin: 20px 0;
     }
   }
+
+  .produtos-stars {
+    margin: -5px 0;
+
+    svg {
+      fill: $amarelo;
+      width: 17px;
+      height: 17px;
+      
+    }
+  }
+}
+
+// Produtos aba compra
+.produtos-compra {
+
+  .produtos-conteudo {
+
+    h1 {
+      margin: 0;
+      margin-top: 10px;
+      font-size: 37px;
+    }
+    p {
+      margin-top: 15px;
+      font-size: 18px;
+    }
+
+  }
+
+  .produtos-preco {
+    .produtos-stars {
+      svg {
+        margin: 10px 0 25px 0;
+      }
+
+    }
+
+    strong {
+      font-size: 40px;
+      line-height: 50%;
+    }
+
+    form {
+      font-weight: 100;
+
+      select {
+        margin-bottom: 30px;
+      }
+    }
+
+    strong span {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+  }
 }
 
 // Footer
