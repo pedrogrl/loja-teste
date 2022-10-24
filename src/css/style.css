@@ -1,3 +1,246 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap");
+@media (max-width: 991px) {
+  header ul li {
+    margin: 3px 2px;
+  }
+  main #banners {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  header img {
+    margin-bottom: 10px;
+  }
+  header form {
+    margin: 20px 0;
+  }
+}
+@media (max-width: 380px) {
+  .cards-promocionais .cards-promocionais-card1 p,
+.cards-promocionais .cards-promocionais-card2 p {
+    font-size: 18px !important;
+  }
+}
+.produtos-mais-vendidos ol, .produto-camiseta-manga-comprida ol {
+  margin: 35px 0;
+  font-weight: bold;
+}
+.produtos-mais-vendidos ol li a, .produto-camiseta-manga-comprida ol li a {
+  color: #FF0F9A;
+}
+
+body {
+  color: #343A40;
+}
+body a {
+  text-decoration: none;
+}
+body h1, body h2, body h3, body h4 {
+  font-weight: bold;
+}
+body h1 {
+  font-size: 26px;
+}
+
+header {
+  background-color: #FFC107;
+  padding: 24px 0;
+}
+header form {
+  position: relative;
+}
+header form input[type=text] {
+  outline: 0;
+  background-color: #FFF;
+  width: 100%;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 100px;
+}
+header form button {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 25px;
+}
+header ul li {
+  position: relative;
+}
+header ul li .itens-carrinho {
+  color: #FFF;
+  background-color: #FF0F9A;
+  font-size: 10px;
+  border-radius: 100%;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: -6px;
+  left: -9px;
+}
+header ul li .itens-carrinho .tst {
+  align-items: baseline;
+}
+header ul li a {
+  font-weight: bold;
+  color: #343A40;
+}
+header ul li a:hover {
+  color: initial;
+}
+
+nav.nav-menu {
+  background-color: #343A40;
+  color: #FFF;
+}
+nav.nav-menu a {
+  color: #FFF;
+}
+nav.nav-menu ul.nav li {
+  cursor: default;
+  position: relative;
+  padding: 11px;
+}
+nav.nav-menu ul.nav li svg {
+  margin-right: 6px;
+}
+nav.nav-menu ul.nav li ul.nav {
+  z-index: 999;
+  display: none;
+  background-color: #343A40;
+  border-top: 5px solid #FFC107;
+  position: absolute;
+  top: 46px;
+  left: 0;
+  width: 100%;
+}
+nav.nav-menu ul.nav li ul.nav li {
+  padding: 10px 25px;
+}
+nav.nav-menu ul.nav li:hover {
+  background-color: #292d32;
+}
+nav.nav-menu ul.nav li:hover ul.nav {
+  display: block;
+}
+
+.cards-promocionais {
+  margin-top: 25px;
+}
+.cards-promocionais .cards-promocionais-card1,
+.cards-promocionais .cards-promocionais-card2 {
+  background-size: cover;
+  color: #FFF;
+  height: 105px;
+  padding: 20px 60px;
+}
+.cards-promocionais .cards-promocionais-card1 svg, .cards-promocionais .cards-promocionais-card1 p,
+.cards-promocionais .cards-promocionais-card2 svg,
+.cards-promocionais .cards-promocionais-card2 p {
+  margin: 0;
+  padding: 0;
+}
+.cards-promocionais .cards-promocionais-card1 p,
+.cards-promocionais .cards-promocionais-card2 p {
+  font-weight: 100;
+  font-size: 23px;
+  line-height: 110%;
+  margin-left: 20px;
+}
+.cards-promocionais .cards-promocionais-card1 p strong,
+.cards-promocionais .cards-promocionais-card2 p strong {
+  font-weight: bold;
+}
+.cards-promocionais .cards-promocionais-card1 {
+  background-image: url(../images/parcele-em-12x.jpg);
+}
+.cards-promocionais .cards-promocionais-card2 {
+  background-image: url(../images/entrega-para-todo-brasil.jpg);
+}
+
+.produtos a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.produtos h1 {
+  margin: 50px 0;
+}
+.produtos .produtos-container {
+  margin-bottom: 30px;
+}
+.produtos .produtos-container .produtos-itens {
+  text-align: justify;
+  color: #343A40;
+}
+.produtos .produtos-container .produtos-itens h2 {
+  font-size: 19px;
+  margin: 10px 0 0 0;
+}
+.produtos .produtos-container .produtos-itens .produtos-stars {
+  margin: -5px 0;
+}
+.produtos .produtos-container .produtos-itens .produtos-stars svg {
+  fill: #FFC107;
+  width: 10px;
+  height: 10px;
+}
+.produtos .veja-mais {
+  margin: 50px 0;
+}
+.produtos.produtos-mais-vendidos h1 {
+  margin: 20px 0;
+}
+.produtos .produtos-stars {
+  margin: -5px 0;
+}
+.produtos .produtos-stars svg {
+  fill: #FFC107;
+  width: 17px;
+  height: 17px;
+}
+
+.produtos-compra .produtos-conteudo h1 {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 37px;
+}
+.produtos-compra .produtos-conteudo p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+.produtos-compra .produtos-preco .produtos-stars svg {
+  margin: 10px 0 25px 0;
+}
+.produtos-compra .produtos-preco strong {
+  font-size: 40px;
+  line-height: 50%;
+}
+.produtos-compra .produtos-preco form {
+  font-weight: 100;
+}
+.produtos-compra .produtos-preco form select {
+  margin-bottom: 30px;
+}
+.produtos-compra .produtos-preco strong span {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #343A40;
+  padding: 25px 0;
+  color: #FFF;
+}
+footer h4 {
+  color: #FFC107;
+  font-size: 19px;
+  margin: 8px 0;
+}
+footer a {
+  color: #FFF;
+}
+footer a:hover {
+  color: #f2f2f2;
+}
 
 /*# sourceMappingURL=style.css.map */

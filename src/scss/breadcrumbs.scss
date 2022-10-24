@@ -1,0 +1,13 @@
+.produtos-mais-vendidos, .produto-camiseta-manga-comprida {
+  ol {
+    margin: 35px 0;
+    font-weight: bold;
+
+    li {
+
+      a {
+        color: $rosa;
+      }
+    }
+  }
+}
