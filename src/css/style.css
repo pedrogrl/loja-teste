@@ -1,4 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap");
+@media (max-width: 991px) {
+  header ul li {
+    margin: 3px 2px;
+  }
+  main #banners {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  header img {
+    margin-bottom: 10px;
+  }
+  header form {
+    margin: 20px 0;
+  }
+}
+@media (max-width: 380px) {
+  .cards-promocionais .cards-promocionais-card1 p,
+.cards-promocionais .cards-promocionais-card2 p {
+    font-size: 18px !important;
+  }
+}
+.produtos-mais-vendidos ol {
+  margin: 35px 0;
+  font-weight: bold;
+}
+.produtos-mais-vendidos ol li a {
+  color: #FF0F9A;
+}
+
 body {
   color: #343A40;
 }
@@ -135,6 +165,9 @@ nav.nav-menu ul.nav li:hover ul.nav {
 .produtos h1 {
   margin: 50px 0;
 }
+.produtos .produtos-container {
+  margin-bottom: 30px;
+}
 .produtos .produtos-container .produtos-itens {
   text-align: justify;
   color: #343A40;
@@ -154,6 +187,9 @@ nav.nav-menu ul.nav li:hover ul.nav {
 .produtos .veja-mais {
   margin: 50px 0;
 }
+.produtos.produtos-mais-vendidos h1 {
+  margin: 20px 0;
+}
 
 footer {
   background-color: #343A40;
@@ -163,6 +199,7 @@ footer {
 footer h4 {
   color: #FFC107;
   font-size: 19px;
+  margin: 8px 0;
 }
 footer a {
   color: #FFF;

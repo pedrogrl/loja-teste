@@ -172,7 +172,7 @@ nav.nav-menu {
   }
 
   .produtos-container {
-
+    margin-bottom: 30px;
     .produtos-itens {
       text-align: justify;
       color: $preto;
@@ -198,6 +198,12 @@ nav.nav-menu {
   .veja-mais {
     margin: 50px 0;
   }
+
+  &.produtos-mais-vendidos {
+    h1 {
+      margin: 20px 0;
+    }
+  }
 }
 
 // Footer
@@ -209,6 +215,7 @@ footer {
   h4 {
     color: $cor-primaria;
     font-size: 19px;
+    margin: 8px 0;
   }
 
   a {
