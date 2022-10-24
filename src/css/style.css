@@ -5,6 +5,12 @@ body {
 body a {
   text-decoration: none;
 }
+body h1, body h2, body h3, body h4 {
+  font-weight: bold;
+}
+body h1 {
+  font-size: 26px;
+}
 
 header {
   background-color: #FFC107;
@@ -85,6 +91,84 @@ nav.nav-menu ul.nav li:hover {
 }
 nav.nav-menu ul.nav li:hover ul.nav {
   display: block;
+}
+
+.cards-promocionais {
+  margin-top: 25px;
+}
+.cards-promocionais .cards-promocionais-card1,
+.cards-promocionais .cards-promocionais-card2 {
+  background-size: cover;
+  color: #FFF;
+  height: 105px;
+  padding: 20px 60px;
+}
+.cards-promocionais .cards-promocionais-card1 svg, .cards-promocionais .cards-promocionais-card1 p,
+.cards-promocionais .cards-promocionais-card2 svg,
+.cards-promocionais .cards-promocionais-card2 p {
+  margin: 0;
+  padding: 0;
+}
+.cards-promocionais .cards-promocionais-card1 p,
+.cards-promocionais .cards-promocionais-card2 p {
+  font-weight: 100;
+  font-size: 23px;
+  line-height: 110%;
+  margin-left: 20px;
+}
+.cards-promocionais .cards-promocionais-card1 p strong,
+.cards-promocionais .cards-promocionais-card2 p strong {
+  font-weight: bold;
+}
+.cards-promocionais .cards-promocionais-card1 {
+  background-image: url(../images/parcele-em-12x.jpg);
+}
+.cards-promocionais .cards-promocionais-card2 {
+  background-image: url(../images/entrega-para-todo-brasil.jpg);
+}
+
+.produtos a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.produtos h1 {
+  margin: 50px 0;
+}
+.produtos .produtos-container .produtos-itens {
+  text-align: justify;
+  color: #343A40;
+}
+.produtos .produtos-container .produtos-itens h2 {
+  font-size: 19px;
+  margin: 10px 0 0 0;
+}
+.produtos .produtos-container .produtos-itens .produtos-stars {
+  margin: -5px 0;
+}
+.produtos .produtos-container .produtos-itens .produtos-stars svg {
+  fill: #FFC107;
+  width: 10px;
+  height: 10px;
+}
+.produtos .veja-mais {
+  margin: 50px 0;
+}
+
+footer {
+  background-color: #343A40;
+  padding: 25px 0;
+  color: #FFF;
+}
+footer h4 {
+  color: #FFC107;
+  font-size: 19px;
+}
+footer a {
+  color: #FFF;
+}
+footer a:hover {
+  color: #f2f2f2;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -4,6 +4,14 @@ body {
   a {
     text-decoration: none;
   }
+
+  h1,h2,h3,h4 {
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
 }
 
 // Header
@@ -109,3 +117,105 @@ nav.nav-menu {
     }
   }
 } 
+
+// Cards promocionais
+.cards-promocionais {
+  margin-top: 25px;
+
+  .cards-promocionais-card1,
+  .cards-promocionais-card2 {
+    background-size: cover;
+    color: $branco;
+
+    height: 105px;
+    padding: 20px 60px;
+
+    svg, p{
+      margin: 0;
+      padding: 0;
+    }
+
+    p {
+      font-weight: 100;
+      font-size: 23px;
+      line-height: 110%;
+      margin-left: 20px;
+
+      strong {
+        font-weight: bold;
+      }
+    }
+  }
+  .cards-promocionais-card1 {
+    // background-color: $rosa;
+    background-image: url(../images/parcele-em-12x.jpg);
+
+  }
+
+  .cards-promocionais-card2 {
+    // background-color: $roxo;
+    background-image: url(../images/entrega-para-todo-brasil.jpg);
+  }
+}
+
+// Produtos
+.produtos {
+
+  a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h1 {
+    margin: 50px 0;
+  }
+
+  .produtos-container {
+
+    .produtos-itens {
+      text-align: justify;
+      color: $preto;
+
+      h2 {
+        font-size: 19px;
+        margin: 10px 0 0 0;
+      }
+
+      .produtos-stars {
+        margin: -5px 0;
+
+        svg {
+          fill: $amarelo;
+          width: 10px;
+          height: 10px;
+          
+        }
+      }
+    }
+  }
+
+  .veja-mais {
+    margin: 50px 0;
+  }
+}
+
+// Footer
+footer {
+  background-color: $cor-secundaria;
+  padding: 25px 0;
+  color: $branco;
+
+  h4 {
+    color: $cor-primaria;
+    font-size: 19px;
+  }
+
+  a {
+    color: $branco;
+    &:hover {
+      color: darken($color: $branco, $amount: 5);
+    }
+  }
+
+}
