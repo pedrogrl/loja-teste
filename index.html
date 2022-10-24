@@ -33,7 +33,7 @@
       <!-- Container -->
       <section class="container">
         <!-- Row -->
-        <article class="row">
+        <article class="row d-flex align-items-center">
 
           <!-- Logo -->
           <a href="" class="col-md-2">
@@ -41,9 +41,9 @@
           </a>
 
           <!-- Pesquisa -->
-          <form action="" class="col-md-7">
+          <form class="col-md-7 d-flex align-items-center">
             <input type="text" name="pesquisar" placeholder="Pesquisar produtos">
-            <button>
+            <button class="d-flex align-items-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                 <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
               </svg>
@@ -51,11 +51,11 @@
           </form>
 
           <!-- Botões Cliente -->
-          <ul class="col-md-3 nav">
+          <ul class="col-md-3 nav d-flex align-items-center justify-content-around">
 
             <li class="nav-item">
-              <a href="">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
                   <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
                 </svg>
                 Entrar
@@ -63,10 +63,10 @@
             </li>
 
             <li class="nav-item">
-              <span class="itens-carrinho">3</span>
+              <span class="itens-carrinho d-flex justify-content-center">3</span>
               <a href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
-                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-basket3-fill" viewBox="0 0 16 16">
+                  <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.468 15.426.943 9h14.114l-1.525 6.426a.75.75 0 0 1-.729.574H3.197a.75.75 0 0 1-.73-.574z"/>
                 </svg>
                 Carrinho
               </a>
@@ -90,8 +90,8 @@
         <ul class="nav">
 
           <!-- Botão Moda Feminina -->
-          <li class="nav-item">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+          <li class="nav-item d-flex align-items-center col-md-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
             </svg>
             Moda Feminina
@@ -99,23 +99,23 @@
             <ul class="nav flex-column">
 
               <li class="nav-item">
-                Promoções
+                <a href="#">Promoções</a>
               </li>
 
               <li class="nav-item">
-                Blusas
+                <a href="#">Blusas</a>
               </li>
 
               <li class="nav-item">
-                Calças
+                <a href="#">Calças</a>
               </li>
 
               <li class="nav-item">
-                Vestidos
+                <a href="#">Vestidos</a>
               </li>
 
               <li class="nav-item">
-                Acessórios
+                <a href="#">Acessórios</a>
               </li>
             </ul>
             <!-- end Submenu -->
@@ -123,8 +123,8 @@
           <!-- end Botão Moda Feminina -->
 
           <!-- Botão Lançamentos -->
-          <li class="nav-item">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+          <li class="nav-item d-flex align-items-center col-md-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
             </svg>
             Lançamentos

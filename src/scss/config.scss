@@ -1,0 +1,111 @@
+body {
+  color: $cor-secundaria;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+// Header
+header {
+  background-color: $cor-primaria;
+  padding: 24px 0;
+
+  form {
+    position: relative;
+
+    input[type='text'] {
+      outline: 0;
+      background-color: $branco;
+      width: 100%;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 100px;
+    }
+
+    button {
+      background: none;
+      border: none;
+      position: absolute;
+      right: 25px;
+    }
+  }
+
+  ul {
+    li {
+      position: relative;
+
+      .itens-carrinho {
+        color: $branco;
+        background-color: $rosa;
+        font-size: 10px;
+        border-radius: 100%;
+
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        top: -6px;
+        left: -9px;
+
+        .tst {
+          align-items: baseline;
+        }
+
+      }
+
+      a {
+        font-weight: bold;
+        color: $cor-secundaria;
+        &:hover {
+          color: initial;
+        }
+
+      }
+    }
+  }
+}
+
+// Nav menu
+nav.nav-menu {
+  background-color: $cor-secundaria;
+  color: $branco;
+
+  a {
+    color: $branco;
+  }
+
+  ul.nav {
+    li {
+      cursor: default;
+      position: relative;
+      padding: 11px;
+
+      svg {
+        margin-right: 6px;
+      }
+
+      ul.nav {
+        z-index: 999;
+        display: none;
+        background-color: $cor-secundaria;
+        border-top: 5px solid $cor-primaria;
+
+        position: absolute;
+        top: 46px;
+        left: 0;
+        width: 100%;
+
+        li {
+          padding: 10px 25px;
+        }
+
+      }
+      &:hover {
+        background-color: darken($color: $cor-secundaria, $amount: 5);
+        ul.nav {
+          display: block;
+        }
+      }
+    }
+  }
+} 
